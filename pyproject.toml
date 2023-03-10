@@ -3,6 +3,9 @@ name = "poetry-test-lfs"
 version = "0.1.0"
 description = "Poetry package that contains a file stored with git-lfs."
 authors = ["Arktur <arktur@github.com>"]
+packages = [
+    { include = "test-lfs" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
